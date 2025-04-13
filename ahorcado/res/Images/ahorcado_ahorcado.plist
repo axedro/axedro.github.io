@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>about</key>
+	<dict>
+		<key>app</key>
+		<string>SpriteHelper</string>
+		<key>author</key>
+		<string>Vladu Bogdan</string>
+		<key>web</key>
+		<string>http://www.gamedevhelper.com</string>
+	</dict>
+	<key>frames</key>
+	<dict>
+		<key>bola0.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{141, 570}, {46, 48}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {46, 48}}</string>
+			<key>sourceSize</key>
+			<string>{46, 48}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>bola1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{191, 570}, {46, 48}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {46, 48}}</string>
+			<key>sourceSize</key>
+			<string>{46, 48}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>bola2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{241, 570}, {46, 48}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {46, 48}}</string>
+			<key>sourceSize</key>
+			<string>{46, 48}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>cuadroIntentos.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 840}, {82, 78}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {78, 82}}</string>
+			<key>sourceSize</key>
+			<string>{82, 78}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>fondoGO.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 2}, {424, 265}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {424, 265}}</string>
+			<key>sourceSize</key>
+			<string>{424, 265}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>fondoInicio.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 271}, {375, 258}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {375, 258}}</string>
+			<key>sourceSize</key>
+			<string>{375, 258}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>horca1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{254, 533}, {99, 33}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {99, 33}}</string>
+			<key>sourceSize</key>
+			<string>{99, 33}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>horca10.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{159, 894}, {17, 32}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {32, 17}}</string>
+			<key>sourceSize</key>
+			<string>{17, 32}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>horca2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 533}, {67, 135}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {135, 67}}</string>
+			<key>sourceSize</key>
+			<string>{67, 135}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>horca3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{413, 271}, {3, 25}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {3, 25}}</string>
+			<key>sourceSize</key>
+			<string>{3, 25}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>horca4.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{357, 563}, {17, 26}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {17, 26}}</string>
+			<key>sourceSize</key>
+			<string>{17, 26}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>horca5.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{228, 533}, {22, 25}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {22, 25}}</string>
+			<key>sourceSize</key>
+			<string>{22, 25}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>horca6.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{84, 894}, {24, 33}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {33, 24}}</string>
+			<key>sourceSize</key>
+			<string>{24, 33}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>horca7.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{357, 533}, {26, 19}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {19, 26}}</string>
+			<key>sourceSize</key>
+			<string>{26, 19}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>horca8.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{195, 894}, {29, 18}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {29, 18}}</string>
+			<key>sourceSize</key>
+			<string>{29, 18}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>horca9.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{121, 894}, {18, 34}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {34, 18}}</string>
+			<key>sourceSize</key>
+			<string>{18, 34}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>instAzul.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{413, 442}, {217, 42}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {42, 217}}</string>
+			<key>sourceSize</key>
+			<string>{217, 42}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>instAzulClicked.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{459, 442}, {217, 42}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {42, 217}}</string>
+			<key>sourceSize</key>
+			<string>{217, 42}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>jugarAzul.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 980}, {127, 42}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {127, 42}}</string>
+			<key>sourceSize</key>
+			<string>{127, 42}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>jugarAzulClicked.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{123, 916}, {127, 42}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {127, 42}}</string>
+			<key>sourceSize</key>
+			<string>{127, 42}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>letrasInicio.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{381, 271}, {347, 28}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {28, 347}}</string>
+			<key>sourceSize</key>
+			<string>{347, 28}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>letrasInst.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{430, 2}, {311, 77}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {77, 311}}</string>
+			<key>sourceSize</key>
+			<string>{311, 77}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>munecoInicio.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{413, 317}, {93, 121}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {93, 121}}</string>
+			<key>sourceSize</key>
+			<string>{93, 121}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>munecoInst.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 622}, {101, 214}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {101, 214}}</string>
+			<key>sourceSize</key>
+			<string>{101, 214}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>reJugar.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 926}, {117, 50}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {117, 50}}</string>
+			<key>sourceSize</key>
+			<string>{117, 50}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>reJugar_Clicked.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{84, 840}, {117, 50}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {117, 50}}</string>
+			<key>sourceSize</key>
+			<string>{117, 50}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>volverAzul.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{133, 962}, {127, 42}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {127, 42}}</string>
+			<key>sourceSize</key>
+			<string>{127, 42}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>volverAzulClicked.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{254, 622}, {127, 42}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {127, 42}}</string>
+			<key>sourceSize</key>
+			<string>{127, 42}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{509, 1024}</string>
+		<key>textureFileName</key>
+		<string>ahorcado_ahorcado.png</string>
+	</dict>
+</dict>
+</plist>
